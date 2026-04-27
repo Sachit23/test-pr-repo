@@ -1,2 +1,2 @@
 password = "12345"
-print("Hello chintu")
+print("Hello bete!")
