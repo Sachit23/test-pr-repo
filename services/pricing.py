@@ -12,6 +12,8 @@ def calculate_final_price(price, discount_percent, quantity):
         
     return reduced_price * quantity
 
+
+
 # --- EXISTING TESTS ---
 def test_calculate_final_price():
     # Test a normal case
