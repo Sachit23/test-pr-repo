@@ -18,7 +18,7 @@ def calculate_final_price(price, discount_percent, quantity):
 def test_calculate_final_price():
     # Test a normal case
     assert calculate_final_price(100, 10, 1) == 90.0
-    
+
     # Test bulk discount
     # 100 * 0.9 (10% off) = 90. 90 * 0.95 (bulk) = 85.5. 85.5 * 20 = 1710
     assert calculate_final_price(100, 10, 20) == 1710.0
